@@ -4,7 +4,7 @@ export type Question = { id: string; title: string; helper?: string; options: Op
 export type Answers = Record<string, string>;
 
 export const LINE_URL = "https://utage-system.com/line/open/z2opchfuY1xZ?mtid=frfS13ZMAhFT";
-export const SERVICES_URL = "https://x.gd/JTv1V";
+export const SERVICES_URL = "https://px.a8.net/svt/ejp?a8mat=459JRL+9ZLU5U+3Y6M+65U41";
 
 export const categories: Record<Category, { name: string }> = {
   A: { name: "第二新卒向け" },
