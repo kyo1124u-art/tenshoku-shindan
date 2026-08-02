@@ -84,7 +84,7 @@ h1 span::after { content: ""; position: absolute; z-index: -1; right: -4px; bott
 .result-lead { max-width: 350px; margin: 13px 0 24px; color: #59655f; font-size: 13px; font-weight: 500; line-height: 1.85; }
 .line-button { min-height: 70px; padding-left: 63px; border: 2px solid rgba(255,255,255,.25); text-decoration: none; box-shadow: 0 15px 34px rgba(31,128,105,.32); }
 .line-icon { position: absolute; left: 17px; display: grid; place-items: center; width: 36px; height: 36px; border-radius: 12px 12px 12px 4px; color: var(--accent-dark); background: white; font-size: 8px; font-weight: 900; }
-.secure-note { display: flex; align-items: center; gap: 6px; margin-top: 13px; color: #849089; font-size: 13px; }
+.secure-note { display: flex; align-items: center; justify-content: center; gap: 6px; margin-top: 13px; color: #849089; font-size: 16px; font-weight: 700; line-height: 1.55; text-align: center; }
 .secondary-card { position: relative; width: 100%; margin-top: 34px; padding: 28px 20px 20px; border: 1px solid #dce4e9; border-radius: 20px; background: #fff; box-shadow: 0 9px 26px rgba(32,55,69,.06); }
 .secondary-card::before { content: ""; position: absolute; top: -18px; left: 50%; width: 1px; height: 18px; background: #d6dfda; }
 .secondary-badge { display: inline-flex; align-items: center; min-height: 24px; padding: 0 10px; border-radius: 999px; color: #60717d; background: #eef3f6; font-size: 9px; font-weight: 800; letter-spacing: .06em; }

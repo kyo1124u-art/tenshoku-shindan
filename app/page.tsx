@@ -121,7 +121,7 @@ export default function Home() {
           <div className="success-mark" aria-hidden="true"><span>✓</span></div>
           <p className="complete-label">DIAGNOSIS COMPLETE</p>
           <h2 id="result-title">転職診断が完了しました！</h2>
-          <p className="result-lead">あなたに合った転職方法と、おすすめの転職サービスが見つかりました。</p>
+          <p className="result-lead">あなたに合った転職方法と<br />おすすめの転職サービスが見つかりました。</p>
           <a className="line-button" href={LINE_URL} data-diagnosis={result} target="_blank" rel="noopener noreferrer">
             <span className="line-icon" aria-hidden="true">LINE</span>
             LINEで無料診断結果を見る
