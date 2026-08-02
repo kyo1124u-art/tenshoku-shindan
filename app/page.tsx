@@ -127,10 +127,10 @@ export default function Home() {
             LINEで無料診断結果を見る
             <ArrowIcon />
           </a>
-          <div className="secure-note"><span aria-hidden="true">⌾</span>追加後すぐに結果を確認できます</div>
+          <div className="secure-note"><span aria-hidden="true">⌾</span>※LINE開けない場合は右上の「...」を押してブラウザで開く</div>
           <div className="secondary-card">
             <div className="secondary-badge">LINE登録なし</div>
-            <h3>LINEを使わずに<br />転職サービスを探したい方へ</h3>
+            <h3>LINEを使わずに<br />第二新卒の転職サービスを探したい方へ</h3>
             <p>あなたの希望条件に合う転職サービスを無料で確認できます。</p>
             <a className="secondary-button" href={SERVICES_URL} target="_blank" rel="noopener noreferrer">
               おすすめの転職サービスを見る
